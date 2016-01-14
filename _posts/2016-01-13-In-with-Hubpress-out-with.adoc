@@ -1,0 +1,18 @@
+= In with Hubpress, out with
+
+This is my experiment with Hubpress. I'm impressed with the simplicity thus far. Too soon to tell. At some point I may compare it with: +
+http://docpad.org +
+https://jekyllrb.com +
+https://wordpress.com
+
+
+==== Notes:
+* it uses ASCIIDOC instead of markdown. 
+* With this framework you can't edit the html after it has been processed.
+** Editing done to HTML directly breaks after any other updates are done to any part of the site.
+** This means all edits must be done using ASCIIDOC format. 
+** [\++++++ (four pluses) before and after a text block allow for inserting html / scripts. 
+** Works well enough for my needs but I'd prefer the ability to edit the html directly
+* Easy to host (as long as github continues to support it)
+* Difficult to personalize.
+
