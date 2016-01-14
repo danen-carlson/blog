@@ -1,9 +1,9 @@
 = In with Hubpress, out with...
 
-This is my experiment with Hubpress. I'm impressed with the simplicity thus far. So far it seems simple to use but not easy to customize. Since I have no interest spending playing with site (like wordpress). At some point I may compare it with: +
-http://docpad.org +
-https://jekyllrb.com +
-https://wordpress.com
+This is my experiment with Hubpress. I'm impressed with the simplicity thus far. So far it seems simple to use but not easy to customize. Since I have no interest spending playing with site (like wordpress). Prior to this I've used 
+http://docpad.org, 
+https://jekyllrb.com, 
+https://wordpress.com with varying degrees of satisfaction. Ultimatly I'd rather not spend time messing with any blogging backend, so I may end up sticking with hubpress despite the departure from markdown to asciidoc.
 
 https://powerman.name/doc/asciidoc[ASCIIdoc formatting cheat sheet]
 
