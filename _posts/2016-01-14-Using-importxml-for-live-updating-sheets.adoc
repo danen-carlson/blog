@@ -1,14 +1,15 @@
-= Using =importxml for live updating spreadsheets
+= Using =importxml for live updating sheets
 
-=== Pull any web element into a Google Sheet to be operated on.
+=== Pull any web element into a Google Sheet.
 
-Quite often I'll have a spreadsheet that requires a piece of data that is regularly updated on a website (and not accessible though an api). ImportXML allows me to pull _just about_ any element or array of elements onto a sheet to be operated on.
+Quite often I'll have a spreadsheet that requires a piece of data that is regularly updated on a website (and not accessible though an api). ImportXML allows me to pull _just about_ any element or array of elements onto a sheet to be operated on. Great for creating simple, low maintenence dashboards. To share a dashboard without sharing the sheet just publish a table and/or charts to a visible web page (be sure to add app scripts trigger to refresh)
 
 ==== Search results:
-Xxxx
+XXXX Move Here
 
 ==== Single element:
-Xxxx
+XXXX Move Here
+XML/JSON & XPATH
 
 ==== Commonly used queries
 Concat vs direct +
