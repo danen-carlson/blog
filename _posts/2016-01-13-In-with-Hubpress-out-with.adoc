@@ -16,6 +16,8 @@ https://powerman.name/doc/asciidoc[ASCIIdoc formatting cheat sheet]
 ** Works well enough for my needs but I'd prefer the ability to edit the html directly
 * Easy to host (as long as github continues to support it)
 * Difficult to personalize.
+* Currently keeping assets @ ptw.c/images/
+** Only because it's easier to throw them up there than to github on the fly. I'll need to change this if it becomes an issue.
 
 ==== ToDo:
 * See about hosting the cloudflare css locally
