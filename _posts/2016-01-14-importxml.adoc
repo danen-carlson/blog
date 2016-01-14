@@ -1,0 +1,20 @@
+= =importxml
+
+=== Pull any web element into a Google Sheet to be operated on.
+
+Quite often I'll have a spreadsheet that requires a piece of data that is regularly updated on a website (and not accessible though an api). ImportXML allows me to pull _just about_ any element or array of elements onto a sheet to be operated on.
+
+==== Search results:
+Xxxx
+
+==== Single element:
+Xxxx
+
+==== Commonly used queries
+Concat vs direct +
+Xml guide +
+Comb through notes. +
+Add links to xmlpath chrome extensions.
+
+==== A basic web scraper
+Even though I'm capable with more advanced tools to capture(scrape) web data I still use importxml and sheets 90% of the time since it is so easy and is captured in sheets which allows it to be manipulated immediatly. 
