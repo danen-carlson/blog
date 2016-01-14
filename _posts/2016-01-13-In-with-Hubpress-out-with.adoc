@@ -19,9 +19,10 @@ https://wordpress.com
 ==== ToDo:
 * See about hosting the cloudflare css locally
 * Look into hosting images locally
-** referencing images in the /images/file.png folder seems to break when viewing an article.  
-** This may be just a limit for the logo, not sure yet.  
+** [line-through]#referencing images in the /images/file.png folder seems to break when viewing an article.#  
+** This seems to only affect the logo (see local image below).
+** Move cover photo to /images directory
 
 === Image Test 
 
-image::images/DC_Black.png[]
+image::/themes/uno/assets/images/background-cover.jpg[]
