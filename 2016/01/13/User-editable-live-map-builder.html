@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>User editable live map builder - Danen Carlson</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="User editable live map builder">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="User editable live map builder">
+    <meta property="og:description" content="">
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" type="text/css" href="//www.danencarlson.com/themes/uno/assets/css/uno.css?v=1.0.0" />
+
+    <link rel="canonical" href="http://www.danencarlson.com/2016/01/13/User-editable-live-map-builder.html" />
+    
+    <meta property="og:site_name" content="Danen Carlson" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="User editable live map builder" />
+    <meta property="og:description" content="This is just a placeholder for A-T form Loading... This is just a placeholder for the live updating map Add A-T spreadsheet list of pins (limit 10) geocode api 150,000 limit fusion table calls - Per event / Time based..." />
+    <meta property="og:url" content="http://www.danencarlson.com/2016/01/13/User-editable-live-map-builder.html" />
+    <meta property="article:published_time" content="2016-01-13T08:00:00.000Z" />
+    <meta property="article:modified_time" content="2016-01-14T07:31:51.038Z" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="User editable live map builder" />
+    <meta name="twitter:description" content="This is just a placeholder for A-T form Loading... This is just a placeholder for the live updating map Add A-T spreadsheet list of pins (limit 10) geocode api 150,000 limit fusion table calls - Per event / Time based..." />
+    <meta name="twitter:url" content="http://www.danencarlson.com/2016/01/13/User-editable-live-map-builder.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Danen Carlson",
+    "author": {
+        "@type": "Person",
+        "name": "Danen Carlson",
+        "image": "https://avatars.githubusercontent.com/u/4970765?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": null
+    },
+    "headline": "User editable live map builder",
+    "url": "http://www.danencarlson.com/2016/01/13/User-editable-live-map-builder.html",
+    "datePublished": "2016-01-13T08:00:00.000Z",
+    "dateModified": "2016-01-14T07:31:51.038Z",
+    "description": "This is just a placeholder for A-T form Loading... This is just a placeholder for the live updating map Add A-T spreadsheet list of pins (limit 10) geocode api 150,000 limit fusion table calls - Per event / Time based..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Danen Carlson" href="http://www.danencarlson.com/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+</head>
+<body class="post-template no-js">
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <header class="panel-cover panel-cover--collapsed " style="background-image: url(http://partytimeweekend.com/images/Cover.jpg)">
+      <div class="panel-main">
+    
+        <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+    
+            <a href="http://www.danencarlson.com" title="link to homepage for Danen Carlson"><img src="http://partytimeweekend.com/images/DC_White.svg" width="80" alt="Danen Carlson logo" class="panel-cover__logo logo" /></a>
+            <h1 class="panel-cover__title panel-title"><a href="http://www.danencarlson.com" title="link to homepage for Danen Carlson">Danen Carlson</a></h1>
+            <hr class="panel-cover__divider" />
+            <p class="panel-cover__description">A place for note and thoughts.</p>
+            <hr class="panel-cover__divider panel-cover__divider--secondary" />
+    
+            <div class="navigation-wrapper">
+    
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="http://www.danencarlson.com/#blog" title="link to Danen Carlson blog" class="blog-button">Blog</a></li>
+                </ul>
+              </nav>
+    
+              
+              
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="https://facebook.com/danencarlson" title="Facebook account">
+                      <i class='icon icon-social-facebook'></i>
+                      <span class="label">Facebook</span>
+                    </a>
+                  </li>
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="http://twitter.com/danencarlson" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+                  <!-- Google Plus -->
+                  <li class="navigation__item">
+                    <a href="https://plus.google.com/u/0/+DanenCarlson" title="Google+ account">
+                      <i class='icon icon-social-google-plus'></i>
+                      <span class="label">Google-plus</span>
+                    </a>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://github.com/danen-carlson" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+              
+              
+              
+                  <!-- LinkedIn -->
+                  <li class="navigation__item">
+                    <a href="http://resume.danencarlson.com" title="LinkedIn account">
+                      <i class='icon icon-social-linkedin'></i>
+                      <span class="label">LinkedIn</span>
+                    </a>
+                  </li>
+              
+                  <!-- Email -->
+                  <li class="navigation__item">
+                    <a href="mailto:danencarlson@gmail.com" title="Email danencarlson@gmail.com">
+                      <i class='icon icon-mail'></i>
+                      <span class="label">Email</span>
+                    </a>
+                  </li>
+              
+                </ul>
+              </nav>
+              
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="panel-cover--overlay"></div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            
+
+  <article class="post-container post-container--single">
+
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="13 Jan 2016" class="post-meta__date date">13 Jan 2016</time> &#8226; <span class="post-meta__tags tags"></span>
+        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/4970765?v=3" alt="profile image for Danen Carlson" class="avatar post-meta__avatar" /> by Danen Carlson</span>
+      </div>
+      <h1 class="post-title">User editable live map builder</h1>
+    </header>
+
+    <section class="post">
+      <div class="sect4">
+<h5 id="_this_is_just_a_placeholder_for_a_t_form">This is just a placeholder for A-T form</h5>
+<iframe src="https://docs.google.com/forms/d/1MChDySfQ6zHifacDH4FsSugV61dNuhLKtMQZ9S5cUcY/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<hr>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="_this_is_just_a_placeholder_for_the_live_updating_map">This is just a placeholder for the live updating map</h5>
+<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col28+from+1tY810OQRQhBox7sC4fi-lPShN7-b3PLUf21u584k&amp;viz=MAP&amp;h=false&amp;lat=31.694947033327463&amp;lng=-86.75808335214845&amp;t=1&amp;z=6&amp;l=col28&amp;y=3&amp;tmplt=5&amp;hml=ONE_COL_LAT_LNG"></iframe>
+<hr>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="_add_a_t_spreadsheet_list_of_pins_limit_10">Add A-T spreadsheet list of pins (limit 10)</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>geocode api 150,000 limit</p>
+</li>
+<li>
+<p>fusion table calls - Per event / Time based / Both?</p>
+</li>
+<li>
+<p>Awesome-Table or Google form?</p>
+</li>
+</ul>
+</div>
+</div>
+    </section>
+
+  </article>
+
+  
+  <section class="post-comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'danen'; // required: replace example with your forum shortname
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </section>
+  
+
+
+
+            <footer class="footer">
+                <span class="footer__copyright">&copy; 2016. All rights reserved.</span>
+                <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
+                <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//www.danencarlson.com/themes/uno/assets/js/main.js?v=1.0.0"></script>
+    
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', '&lt;script&gt;   (function(i,s,o,g,r,a,m){i[&#x27;GoogleAnalyticsObject&#x27;]=r;i[r]=i[r]||function(){   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)   })(window,document,&#x27;script&#x27;,&#x27;//www.google-analytics.com/analytics.js&#x27;,&#x27;ga&#x27;);    ga(&#x27;create&#x27;, &#x27;UA-72360614-1&#x27;, &#x27;auto&#x27;);   ga(&#x27;send&#x27;, &#x27;pageview&#x27;);  &lt;/script&gt;', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>
