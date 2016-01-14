@@ -1,4 +1,4 @@
-= Testing html insert
+= User editable live map builder
 
 
 ===== This is just a placeholder for A-T form
@@ -17,3 +17,8 @@
 '''
 '''
 ===== Add A-T spreadsheet list of pins (limit 10)
+
+
+* geocode api 150,000 limit
+* fusion table calls - Per event / Time based / Both?
+* Awesome-Table or Google form?
