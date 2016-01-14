@@ -5,6 +5,7 @@ http://docpad.org +
 https://jekyllrb.com +
 https://wordpress.com
 
+https://powerman.name/doc/asciidoc[ASCIIdoc formatting cheat sheet]
 
 ==== Notes:
 * it uses ASCIIDOC instead of markdown. 
