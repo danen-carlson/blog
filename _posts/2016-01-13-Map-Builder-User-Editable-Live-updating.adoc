@@ -1,4 +1,4 @@
-= User editable live map builder
+= Map Builder / User Editable / Live updating
 
 
 ===== This is just a placeholder for A-T form
