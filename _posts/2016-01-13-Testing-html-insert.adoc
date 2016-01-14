@@ -1,0 +1,17 @@
+= Testing html insert
+
+
+
+++++
+<iframe src="https://docs.google.com/forms/d/1MChDySfQ6zHifacDH4FsSugV61dNuhLKtMQZ9S5cUcY/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+++++
+
+'''
+'''
+
+
+++++
+<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col28+from+1tY810OQRQhBox7sC4fi-lPShN7-b3PLUf21u584k&amp;viz=MAP&amp;h=false&amp;lat=31.694947033327463&amp;lng=-86.75808335214845&amp;t=1&amp;z=6&amp;l=col28&amp;y=3&amp;tmplt=5&amp;hml=ONE_COL_LAT_LNG"></iframe>
+++++
+
+=======
