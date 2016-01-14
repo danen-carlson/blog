@@ -1,6 +1,6 @@
 = In with Hubpress, out with...
 
-This is my experiment with Hubpress. I'm impressed with the simplicity thus far. Too soon to tell. At some point I may compare it with: +
+This is my experiment with Hubpress. I'm impressed with the simplicity thus far. So far it seems simple to use but not easy to customize. Since I have no interest spending playing with site (like wordpress). At some point I may compare it with: +
 http://docpad.org +
 https://jekyllrb.com +
 https://wordpress.com
@@ -16,3 +16,12 @@ https://wordpress.com
 * Easy to host (as long as github continues to support it)
 * Difficult to personalize.
 
+==== ToDo:
+* See about hosting the cloudflare css locally
+* Look into hosting images locally
+** referencing images in the /images/file.png folder seems to break when viewing an article.  
+** This may be just a limit for the logo, not sure yet.  
+
+=== Image Test 
+
+image::images/DC_Black.png[]
