@@ -1,4 +1,4 @@
-= In with Hubpress, out with
+= In with Hubpress, out with...
 
 This is my experiment with Hubpress. I'm impressed with the simplicity thus far. Too soon to tell. At some point I may compare it with: +
 http://docpad.org +
