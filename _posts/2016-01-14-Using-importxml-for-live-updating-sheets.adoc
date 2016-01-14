@@ -2,7 +2,7 @@
 
 === Pull any web element into a Google Sheet.
 
-Quite often I'll have a spreadsheet that requires a piece of data that is regularly updated on a website (and not accessible though an api). ImportXML allows me to pull _just about_ any element or array of elements onto a sheet to be operated on. Great for creating simple, low maintenence dashboards. To share a dashboard without sharing the sheet just publish a table and/or charts to a visible web page (be sure to add app scripts trigger to refresh)
+Quite often I'll have a spreadsheet that requires a piece of data that is regularly updated on a website (and not accessible though an api). ImportXML allows me to pull _just about_ any element or array of elements onto a sheet to be operated on. Great for creating simple, low maintenence dashboards. To share a dashboard without sharing the sheet just publish a table and/or charts to a visible web page (be sure to add app scripts trigger to keep data fresh).
 
 ==== Search results:
 XXXX Move Here
