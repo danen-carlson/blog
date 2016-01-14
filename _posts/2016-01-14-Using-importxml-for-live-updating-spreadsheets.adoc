@@ -1,4 +1,4 @@
-= =importxml
+= Using =importxml for live updating spreadsheets
 
 === Pull any web element into a Google Sheet to be operated on.
 
