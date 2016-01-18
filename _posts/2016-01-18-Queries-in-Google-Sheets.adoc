@@ -1,0 +1,17 @@
+= Queries in Google Sheets
+
+Generally SQL like with a few exceptions: + 
+https://developers.google.com/chart/interactive/docs/querylanguage?hl=en[Sheets] +
+https://developers.google.com/chart/interactive/docs/fusiontables[Fusion Tables]
+
+
+* Column Reference: when referencing columns use "Col1, Col2..." when using importrange on separate spreadsheets
+** Use "A, B..." instead of "Col1, Col2..." for queries done on the same sheet.  
+* Report queries (importrange) are breaking when I get too far past 10,000 records
+** Check to see if normal queries hit the same limit
+*** On the same sheet
+*** On a separate sheet
+*** See if limits exist in fusion tables
+*** See if limits apply when queiries are performed on fusion tables and recorded in sheets
+* Relative references are not kept
+** If a column is deleted from the source sheet it does not carry over to the query sheet (obvious, but worth noting)
